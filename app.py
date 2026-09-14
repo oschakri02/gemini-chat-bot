@@ -24,7 +24,7 @@ def chat_bot(question, persona):
         config=types.GenerateContentConfig(
             system_instruction=system_prompt,
             temperature=0.4,
-            max_output_tokens=1000
+            max_output_tokens=2000
         ),
         contents=question
     )
